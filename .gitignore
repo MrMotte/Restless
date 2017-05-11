@@ -68,3 +68,6 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+gitkraken_rsa
+
+gitkraken_rsa\.pub
