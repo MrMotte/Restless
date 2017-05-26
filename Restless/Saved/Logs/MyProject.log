@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 ﻿Log file open, 05/25/17 15:29:14
 LogInit:Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: RandInit(-134756765) SRandInit(-134756765).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
 LogStats: Stats thread started at 0.075882
+=======
+﻿Log file open, 05/25/17 17:44:11
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2082068956) SRandInit(2082068956).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075123
+>>>>>>> BerndFeature
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,6 +57,7 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2017.05.25-13.29.15:736][  0]LogInit: Selected Device Profile: [Windows]
 [2017.05.25-13.29.15:736][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.05.25-13.29.15:750][  0]LogInit: Computer: 2014-GA-22
@@ -5497,3 +5507,1402 @@ LogInit: Object subsystem initialized
 [2017.05.25-18.26.48:143][192]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.05.25-18.26.48:151][192]LogExit: Exiting.
 [2017.05.25-18.26.48:193][192]Log file closed, 05/25/17 20:26:48
+=======
+[2017.05.25-15.44.12:268][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-15.44.12:268][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.25-15.44.12:319][  0]LogInit: Computer: 2014-GA-28
+[2017.05.25-15.44.12:319][  0]LogInit: User: BerndGaykowski
+[2017.05.25-15.44.12:319][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.25-15.44.12:319][  0]LogInit: High frequency timer resolution =3.117786 MHz
+[2017.05.25-15.44.12:319][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.25-15.44.12:319][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.25-15.44.12:319][  0]LogMemory: Process Physical Memory: 263.50 MB used, 263.50 MB peak
+[2017.05.25-15.44.12:319][  0]LogMemory: Process Virtual Memory: 262.14 MB used, 262.14 MB peak
+[2017.05.25-15.44.12:319][  0]LogMemory: Physical Memory: 5695.55 MB used,  2381.73 MB free, 8077.28 MB total
+[2017.05.25-15.44.12:319][  0]LogMemory: Virtual Memory: 644.27 MB used,  2381.73 MB free, 134217728.00 MB total
+[2017.05.25-15.44.12:461][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.25-15.44.15:022][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.25-15.44.15:666][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.05.25-15.44.15:666][  0]LogD3D11RHI:       2017/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.25-15.44.15:676][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.25-15.44.15:676][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.25-15.44.15:677][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.25-15.44.15:677][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.25-15.44.15:677][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.25-15.44.15:682][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.25-15.44.15:682][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.25-15.44.15:682][  0]LogWindows: EnumDisplayDevices:
+[2017.05.25-15.44.15:682][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.05.25-15.44.15:682][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.05.25-15.44.15:683][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.05.25-15.44.15:683][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.05.25-15.44.15:683][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.05.25-15.44.15:683][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.25-15.44.15:683][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.25-15.44.15:683][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.05.25-15.44.15:683][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.05.25-15.44.15:683][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.05.25-15.44.15:683][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.05.25-15.44.15:683][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.25-15.44.16:300][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.25-15.44.16:301][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.25-15.44.16:352][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.25-15.44.16:355][  0]LogShaderCompilers: Guid format shader working directory is 36 characters bigger than the processId version (D:/Restless/Restless/Intermediate/Shaders/WorkingDirectory/9172/).
+[2017.05.25-15.44.16:356][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bernd.gaykowski/AppData/Local/Temp/UnrealShaderWorkingDir/C7C2FA064426BD7D15C384AA2ECC8BFF/'.
+[2017.05.25-15.44.16:356][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.25-15.44.18:594][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.25-15.44.18:655][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.25-15.44.18:712][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.25-15.44.18:767][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.25-15.44.18:824][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.25-15.44.18:877][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.25-15.44.18:931][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.25-15.44.18:991][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.25-15.44.19:036][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.25-15.44.19:092][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.25-15.44.19:145][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.25-15.44.19:196][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.25-15.44.19:252][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.25-15.44.19:310][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.25-15.44.19:366][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.25-15.44.19:471][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.25-15.44.19:471][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.25-15.44.19:510][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.25-15.44.19:616][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.25-15.44.19:653][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.25-15.44.19:709][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.25-15.44.19:765][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.25-15.44.19:821][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.25-15.44.19:882][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.25-15.44.19:882][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.25-15.44.20:359][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.25-15.44.20:568][  0]LogDerivedDataCache: Loaded boot cache 0.21s 51MB C:/Users/bernd.gaykowski/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.25-15.44.20:568][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bernd.gaykowski/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.25-15.44.20:568][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Restless/Restless/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.25-15.44.20:568][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.25-15.44.20:568][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Restless/Restless/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.25-15.44.20:568][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.25-15.44.20:588][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.25-15.44.20:601][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bernd.gaykowski/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.25-15.44.20:611][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.25-15.44.20:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-15.44.20:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-15.44.22:224][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-15.44.22:227][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.25-15.44.22:441][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.25-15.44.22:483][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.25-15.44.22:531][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.25-15.44.22:531][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.25-15.44.22:531][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.25-15.44.23:135][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: myproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4136520461
+[2017.05.25-15.44.23:180][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.05.25-15.44.23:212][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.012493 seconds
+[2017.05.25-15.44.23:217][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.25-15.44.23:217][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.25-15.44.23:217][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.25-15.44.23:285][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.25-15.44.26:386][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.25-15.44.26:427][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.25-15.44.26:910][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.25-15.44.27:288][  0]SourceControl: Info Source control is disabled
+[2017.05.25-15.44.27:289][  0]SourceControl: Info Source control is disabled
+[2017.05.25-15.44.27:338][  0]SourceControl: Info Source control is disabled
+[2017.05.25-15.44.27:383][  0]SourceControl: Info Source control is disabled
+[2017.05.25-15.44.28:681][  0]LogEngine: Initializing Engine...
+[2017.05.25-15.44.28:681][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.25-15.44.28:913][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.25-15.44.28:925][  0]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-15.44.28:940][  0]LogInit: FAudioDevice initialized.
+[2017.05.25-15.44.28:971][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/bernd.gaykowski/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.25-15.44.28:985][  0]LogInit: Texture streaming: Enabled
+[2017.05.25-15.44.29:078][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.25-15.44.29:165][  0]LogInit: Transaction tracking system initialized
+[2017.05.25-15.44.29:515][  0]BlueprintLog: New page: Editor Load
+[2017.05.25-15.44.30:575][  0]LocalizationService: Info Localization service is disabled
+[2017.05.25-15.44.31:254][  0]LogConsoleResponse:Display: 
+[2017.05.25-15.44.31:429][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.25-15.44.31:429][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.25-15.44.32:458][  0]LogFileCache: Scanning file cache for directory 'D:/Restless/Restless/Content/' took 0.05s
+[2017.05.25-15.44.32:506][  0]SourceControl: Info Source control is disabled
+[2017.05.25-15.44.32:506][  0]Cmd: MAP LOAD FILE="D:/Restless/Restless/Content/Levels/Blockout_beat2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.25-15.44.32:506][  0]LightingResults: New page: Lighting Build
+[2017.05.25-15.44.32:544][  0]MapCheck: New page: Map Check
+[2017.05.25-15.44.32:544][  0]LightingResults: New page: Lighting Build
+[2017.05.25-15.44.33:087][  0]LogMaterial: Missing cached shader map for material FuseBox_LP_FuseBox_OcclusionRoughnessMetallic_Mat, compiling. 
+[2017.05.25-15.44.33:088][  0]LogMaterial:Warning: Failed to compile Material /Game/Probs/FuseBox/FuseBox_LP_FuseBox_OcclusionRoughnessMetallic_Mat.FuseBox_LP_FuseBox_OcclusionRoughnessMetallic_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.25-15.44.33:088][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/Probs/FuseBox/FuseBox_LP_FuseBox_OcclusionRoughnessMetallic.FuseBox_LP_FuseBox_OcclusionRoughnessMetallic
+[2017.05.25-15.44.33:106][  0]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-15.44.33:145][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.25-15.44.33:146][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.25-15.44.33:186][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.415ms to complete.
+[2017.05.25-15.44.33:186][  0]LogFileHelpers: Loading map 'Blockout_beat2' took 0.680
+[2017.05.25-15.44.33:464][  0]LogCollectionManager: Loaded 0 collections in 0.001387 seconds
+[2017.05.25-15.44.33:551][  0]LogFileCache: Scanning file cache for directory 'D:/Restless/Restless/Saved/Collections/' took 0.01s
+[2017.05.25-15.44.33:551][  0]LogFileCache: Scanning file cache for directory 'D:/Restless/Restless/Content/Developers/BerndGaykowski/Collections/' took 0.01s
+[2017.05.25-15.44.33:551][  0]LogFileCache: Scanning file cache for directory 'D:/Restless/Restless/Content/Collections/' took 0.01s
+[2017.05.25-15.44.33:551][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.25-15.44.33:559][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2246 classes and 455 folders.
+[2017.05.25-15.44.33:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.25-15.44.33:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.25-15.44.33:626][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.25-15.44.33:992][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.25-15.44.34:097][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.25-15.44.34:106][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.25-15.44.34:175][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.25-15.44.34:175][  0]LogLoad: (Engine Initialization) Total time: 24.46 seconds
+[2017.05.25-15.44.34:175][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.05.25-15.44.34:175][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.25-15.44.34:175][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.25-15.44.34:187][  0]LogOcInput: OculusInput pre-init called
+[2017.05.25-15.44.34:222][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.25-15.44.34:228][  0]LogSlate: Took 0.005094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.25-15.44.34:238][  0]LogSlate: Took 0.005230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.25-15.44.34:246][  0]LogSlate: Took 0.005140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.25-15.44.34:428][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.25-15.44.34:487][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Restless/Restless/Content/' took 0.29s
+[2017.05.25-15.44.34:505][  1]LogAssetRegistry: Asset discovery search completed in 11.3465 seconds
+[2017.05.25-15.44.34:505][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.05.25-15.44.34:505][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.05.25-15.44.35:217][ 71]LogSlate: Took 0.004895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.25-15.44.38:378][434]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.25-15.44.53:292][163]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-15.44.53:307][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.44.53:307][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-15.44.53:308][163]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 7:44:53 PM)
+[2017.05.25-15.44.53:308][163]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-15.44.53:329][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021187s)
+[2017.05.25-15.44.53:330][163]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-15.44.53:330][163]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2017.05.25-15.44.53:330][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.022578s)
+[2017.05.25-15.44.53:345][163]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-15.44.53:351][163]LogInit: FAudioDevice initialized.
+[2017.05.25-15.44.53:431][163]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-15.44.53:440][163]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-17.44.53
+[2017.05.25-15.44.53:441][163]LogWorld: Bringing up level for play took: 0.007872
+[2017.05.25-15.44.53:482][163]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.05.25-15.44.53:482][163]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-15.44.53:482][163]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-15.44.53:482][163]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-15.44.53:484][163]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-15.44.53:484][163]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.485
+[2017.05.25-15.44.53:484][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.45.54:763][ 46]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.45.54:807][ 46]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.46.23:421][ 34]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.25-15.46.23:483][ 35]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject
+
+[2017.05.25-15.46.23:495][ 36]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-15.46.23:496][ 36]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.25-15.46.23:496][ 36]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-15.46.23:496][ 36]LogTemp:Display: BranchPath = 2014-GA-28/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = 2014-GA-28/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.25-15.46.23:522][ 37]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Ein Teil des Pfades "C:\Users\bernd.gaykowski\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles" konnte nicht gefunden werden.
+
+[2017.05.25-15.46.23:522][ 37]LogTemp:Display:    bei System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.25-15.46.23:522][ 37]LogTemp:Display:    bei System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.25-15.46.23:522][ 37]LogTemp:Display:    bei System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.25-15.46.23:522][ 37]LogTemp:Display:    bei iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.25-15.46.23:522][ 37]LogTemp:Display:    bei iPhonePackager.Program.Main(String[] args)
+
+[2017.05.25-15.46.28:260][430]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.25-15.46.28:808][430]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.25-15.46.29:439][430]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.25-15.46.29:538][430]LogSlate: Took 0.004576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.25-15.46.29:730][431]LogSlate: Took 0.004991 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.25-15.47.18:492][323]BlueprintLog: New page: Compile BP_Character_Player
+[2017.05.25-15.47.19:155][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fabi/BP_Character_Player" FILE="D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset" SILENT=true
+[2017.05.25-15.47.19:196][351]LogSavePackage: Save=28.10ms
+[2017.05.25-15.47.19:196][351]LogSavePackage: Moving 'D:/Restless/Restless/Saved/BP_Character_Player213C5FF044DCFF5B6232A39BDD9E6796.tmp' to 'D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset'
+[2017.05.25-15.47.19:200][351]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset
+[2017.05.25-15.47.20:919][456]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-15.47.20:937][456]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.47.20:937][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-15.47.20:937][456]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 7:47:20 PM)
+[2017.05.25-15.47.20:937][456]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-15.47.20:957][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019786s)
+[2017.05.25-15.47.20:957][456]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-15.47.20:958][456]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2017.05.25-15.47.20:958][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.021481s)
+[2017.05.25-15.47.20:982][456]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-15.47.20:988][456]LogInit: FAudioDevice initialized.
+[2017.05.25-15.47.21:023][456]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-15.47.21:035][456]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-17.47.21
+[2017.05.25-15.47.21:036][456]LogWorld: Bringing up level for play took: 0.010783
+[2017.05.25-15.47.21:036][456]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-15.47.21:036][456]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-15.47.21:037][456]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-15.47.21:038][456]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-15.47.21:038][456]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 1.072
+[2017.05.25-15.47.21:039][456]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.47.26:833][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.47.26:873][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.47.30:989][ 62]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-15.47.31:006][ 62]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.47.31:006][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-15.47.31:006][ 62]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 7:47:31 PM)
+[2017.05.25-15.47.31:007][ 62]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-15.47.31:028][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021000s)
+[2017.05.25-15.47.31:028][ 62]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-15.47.31:028][ 62]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.05.25-15.47.31:029][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.022037s)
+[2017.05.25-15.47.31:045][ 62]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-15.47.31:053][ 62]LogInit: FAudioDevice initialized.
+[2017.05.25-15.47.31:084][ 62]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-15.47.31:092][ 62]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-17.47.31
+[2017.05.25-15.47.31:092][ 62]LogWorld: Bringing up level for play took: 0.006938
+[2017.05.25-15.47.31:093][ 62]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-15.47.31:093][ 62]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-15.47.31:093][ 62]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-15.47.31:094][ 62]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-15.47.31:094][ 62]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.872
+[2017.05.25-15.47.31:094][ 62]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.47.41:807][741]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.47.41:846][741]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.58.03:496][325]BlueprintLog: New page: Compile BP_Character_Player
+[2017.05.25-15.58.04:096][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fabi/BP_Character_Player" FILE="D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset" SILENT=true
+[2017.05.25-15.58.04:146][350]LogSavePackage: Save=36.62ms
+[2017.05.25-15.58.04:146][350]LogSavePackage: Moving 'D:/Restless/Restless/Saved/BP_Character_Player32EE412646491C2FA37A11905046ABE2.tmp' to 'D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset'
+[2017.05.25-15.58.04:147][350]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset
+[2017.05.25-15.58.05:877][458]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-15.58.05:891][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.58.05:891][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-15.58.05:891][458]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 7:58:05 PM)
+[2017.05.25-15.58.05:892][458]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-15.58.05:911][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019516s)
+[2017.05.25-15.58.05:912][458]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-15.58.05:913][458]LogPlayLevel: PIE: World Init took: (0.001450s)
+[2017.05.25-15.58.05:913][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.021510s)
+[2017.05.25-15.58.05:937][458]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-15.58.05:944][458]LogInit: FAudioDevice initialized.
+[2017.05.25-15.58.05:974][458]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-15.58.05:985][458]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-17.58.05
+[2017.05.25-15.58.05:985][458]LogWorld: Bringing up level for play took: 0.009797
+[2017.05.25-15.58.05:986][458]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-15.58.05:986][458]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-15.58.05:986][458]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-15.58.05:988][458]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-15.58.05:988][458]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.024
+[2017.05.25-15.58.05:988][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.59.23:441][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.59.23:478][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-15.59.47:300][938]LogRenderer: Reallocating scene render targets to support 1208x668 NumSamples 1 (Frame:67864).
+[2017.05.25-16.00.06:986][318]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.25-16.00.45:543][583]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.014
+[2017.05.25-16.00.45:545][583]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fabi/BP_Character_Player] ([1] browsable assets)...
+[2017.05.25-16.00.45:545][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fabi/BP_Character_Player]
+[2017.05.25-16.00.45:545][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fabi/BP_Character_Player" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Fabi/BP_Character_Player_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-16.00.45:591][583]LogSavePackage: Save=38.43ms
+[2017.05.25-16.00.45:591][583]LogSavePackage: Moving 'D:/Restless/Restless/Saved/BP_Character_Player_Auto10B22EB4A463EF146CD6F8480A6FD87F9.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Fabi/BP_Character_Player_Auto1.uasset'
+[2017.05.25-16.00.45:592][583]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Fabi/BP_Character_Player_Auto1.uasset
+[2017.05.25-16.00.45:592][583]LogFileHelpers: Auto-saving content packages took 0.047
+[2017.05.25-16.05.53:272][524]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.05.25-16.06.01:324][ 53]LogEditorViewport: Clicking Background
+[2017.05.25-16.06.42:320][298]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.06.42:336][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.06.42:336][298]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.25-16.06.42:336][298]LogPlayLevel: [PlayLevel] Compiling BP_Character_Player before play...
+[2017.05.25-16.06.42:473][298]LogPlayLevel: PlayLevel: Blueprint regeneration took 136 ms (1 blueprints)
+[2017.05.25-16.06.42:473][298]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 8:06:42 PM)
+[2017.05.25-16.06.42:473][298]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-16.06.42:496][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022392s)
+[2017.05.25-16.06.42:497][298]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-16.06.42:497][298]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2017.05.25-16.06.42:498][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.024122s)
+[2017.05.25-16.06.42:519][298]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.06.42:527][298]LogInit: FAudioDevice initialized.
+[2017.05.25-16.06.42:559][298]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-16.06.42:570][298]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-18.06.42
+[2017.05.25-16.06.42:571][298]LogWorld: Bringing up level for play took: 0.010201
+[2017.05.25-16.06.42:572][298]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.06.42:572][298]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.06.42:572][298]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.06.42:574][298]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.06.42:574][298]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.607
+[2017.05.25-16.06.42:575][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.06.44:592][453]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.06.44:630][453]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.06.47:862][702]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.06.47:878][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.06.47:878][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-16.06.47:878][702]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 8:06:47 PM)
+[2017.05.25-16.06.47:878][702]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-16.06.47:896][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018121s)
+[2017.05.25-16.06.47:897][702]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-16.06.47:897][702]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2017.05.25-16.06.47:897][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.019311s)
+[2017.05.25-16.06.47:917][702]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.06.47:927][702]LogInit: FAudioDevice initialized.
+[2017.05.25-16.06.47:961][702]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-16.06.47:969][702]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-18.06.47
+[2017.05.25-16.06.47:969][702]LogWorld: Bringing up level for play took: 0.007355
+[2017.05.25-16.06.47:970][702]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.06.47:970][702]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.06.47:970][702]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.06.47:971][702]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.06.47:971][702]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.005
+[2017.05.25-16.06.47:972][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.07.03:501][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.07.03:537][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.07.21:875][537]BlueprintLog: New page: Compile BP_Character_Player
+[2017.05.25-16.07.22:464][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fabi/BP_Character_Player" FILE="D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset" SILENT=true
+[2017.05.25-16.07.22:513][574]LogSavePackage: Save=36.82ms
+[2017.05.25-16.07.22:513][574]LogSavePackage: Moving 'D:/Restless/Restless/Saved/BP_Character_Player2CBE6513491D2202C18043ACB052DDDD.tmp' to 'D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset'
+[2017.05.25-16.07.22:514][574]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset
+[2017.05.25-16.07.23:931][695]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.07.23:949][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.07.23:949][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-16.07.23:949][695]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 8:07:23 PM)
+[2017.05.25-16.07.23:949][695]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-16.07.23:973][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023513s)
+[2017.05.25-16.07.23:973][695]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-16.07.23:973][695]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2017.05.25-16.07.23:974][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.024383s)
+[2017.05.25-16.07.23:991][695]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.07.23:997][695]LogInit: FAudioDevice initialized.
+[2017.05.25-16.07.24:029][695]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-16.07.24:037][695]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-18.07.24
+[2017.05.25-16.07.24:038][695]LogWorld: Bringing up level for play took: 0.007256
+[2017.05.25-16.07.24:038][695]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.07.24:038][695]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.07.24:038][695]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.07.24:039][695]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.07.24:039][695]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.073
+[2017.05.25-16.07.24:040][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.09.00:543][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.09.00:583][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.09.02:165][905]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.09.02:180][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.09.02:180][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-16.09.02:180][905]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 8:09:02 PM)
+[2017.05.25-16.09.02:180][905]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-16.09.02:198][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017892s)
+[2017.05.25-16.09.02:199][905]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-16.09.02:199][905]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.05.25-16.09.02:199][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.018873s)
+[2017.05.25-16.09.02:231][905]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.09.02:239][905]LogInit: FAudioDevice initialized.
+[2017.05.25-16.09.02:270][905]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-16.09.02:281][905]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-18.09.02
+[2017.05.25-16.09.02:282][905]LogWorld: Bringing up level for play took: 0.010368
+[2017.05.25-16.09.02:283][905]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.09.02:283][905]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.09.02:283][905]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.09.02:285][905]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.09.02:285][905]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.318
+[2017.05.25-16.09.02:285][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.09.03:152][978]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.09.03:189][978]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.10.23:179][324]LogRenderer: Reallocating scene render targets to support 1336x668 NumSamples 1 (Frame:139146).
+[2017.05.25-16.10.42:825][593]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\bernd.gaykowski\Desktop\PressE.png)
+[2017.05.25-16.10.42:836][593]LogTexture:Display: Building textures: PressE (BGRA8, 161X148) - 115 MB total VRAM
+[2017.05.25-16.10.52:805][623]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\bernd.gaykowski\Desktop\FuseCell.png)
+[2017.05.25-16.10.52:809][623]LogTexture:Display: Building textures: FuseCell (BGRA8, 161X148) - 115 MB total VRAM
+[2017.05.25-16.12.41:821][572]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.020
+[2017.05.25-16.12.41:822][572]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/NewHUD] ([1] browsable assets)...
+[2017.05.25-16.12.41:822][572]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NewHUD]
+[2017.05.25-16.12.41:823][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewHUD" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/NewHUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-16.12.41:835][572]LogSavePackage: Save=10.91ms
+[2017.05.25-16.12.41:835][572]LogSavePackage: Moving 'D:/Restless/Restless/Saved/NewHUD_Auto21B3A56F442AC421BD40AE889DC9C7300.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/NewHUD_Auto2.uasset'
+[2017.05.25-16.12.41:835][572]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/NewHUD_Auto2.uasset
+[2017.05.25-16.12.41:836][572]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI] ([1] browsable assets)...
+[2017.05.25-16.12.41:836][572]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI]
+[2017.05.25-16.12.41:836][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-16.12.41:844][572]LogSavePackage: Save=7.63ms
+[2017.05.25-16.12.41:844][572]LogSavePackage: Moving 'D:/Restless/Restless/Saved/UI_Auto26C8CD23146F8833DE3E8CD908A292C02.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto2.uasset'
+[2017.05.25-16.12.41:845][572]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto2.uasset
+[2017.05.25-16.12.41:845][572]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PressE] ([1] browsable assets)...
+[2017.05.25-16.12.41:849][572]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprints/PressE.PressE]
+[2017.05.25-16.12.41:849][572]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PressE]
+[2017.05.25-16.12.41:849][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PressE" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/PressE_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-16.12.41:855][572]LogSavePackage: Save=4.86ms
+[2017.05.25-16.12.41:855][572]LogSavePackage: Moving 'D:/Restless/Restless/Saved/PressE_Auto221169CED484AE8109CD916A18BF1A277.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/PressE_Auto2.uasset'
+[2017.05.25-16.12.41:855][572]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/PressE_Auto2.uasset
+[2017.05.25-16.12.41:855][572]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/FuseCell] ([1] browsable assets)...
+[2017.05.25-16.12.41:859][572]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprints/FuseCell.FuseCell]
+[2017.05.25-16.12.41:859][572]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FuseCell]
+[2017.05.25-16.12.41:859][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FuseCell" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/FuseCell_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-16.12.41:868][572]LogSavePackage: Save=7.06ms
+[2017.05.25-16.12.41:868][572]LogSavePackage: Moving 'D:/Restless/Restless/Saved/FuseCell_Auto28ACE5CCC4E2CB996A52E17A8E39DAFBC.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/FuseCell_Auto2.uasset'
+[2017.05.25-16.12.41:869][572]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/FuseCell_Auto2.uasset
+[2017.05.25-16.12.41:869][572]LogFileHelpers: Auto-saving content packages took 0.047
+[2017.05.25-16.18.06:825][999]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-16.18.06:846][999]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.18.06:846][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-16.18.06:846][999]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 8:18:06 PM)
+[2017.05.25-16.18.06:846][999]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-16.18.06:871][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024523s)
+[2017.05.25-16.18.06:871][999]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-16.18.06:872][999]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2017.05.25-16.18.06:872][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.025621s)
+[2017.05.25-16.18.06:889][999]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-16.18.06:898][999]LogInit: FAudioDevice initialized.
+[2017.05.25-16.18.06:937][999]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-16.18.06:948][999]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-18.18.06
+[2017.05.25-16.18.06:948][999]LogWorld: Bringing up level for play took: 0.009052
+[2017.05.25-16.18.06:949][999]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.18.06:949][999]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-16.18.06:949][999]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.18.06:950][999]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-16.18.06:950][999]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.989
+[2017.05.25-16.18.06:950][999]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.21.21:378][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.21.21:411][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-16.21.21:498][451]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2017.05.25-16.22.46:643][691]LogRenderer: Reallocating scene render targets to support 1336x712 NumSamples 1 (Frame:194343).
+[2017.05.25-16.25.51:950][131]BlueprintLog: New page: Compile BP_Character_Player
+[2017.05.25-16.25.52:794][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fabi/BP_Character_Player" FILE="D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset" SILENT=true
+[2017.05.25-16.25.52:863][173]LogSavePackage: Save=38.35ms
+[2017.05.25-16.25.52:863][173]LogSavePackage: Moving 'D:/Restless/Restless/Saved/BP_Character_PlayerB3B47AA746360532AB921CA3E0A8D605.tmp' to 'D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset'
+[2017.05.25-16.25.52:865][173]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset
+[2017.05.25-16.26.44:186][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.018
+[2017.05.25-16.26.44:188][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI] ([1] browsable assets)...
+[2017.05.25-16.26.44:188][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI]
+[2017.05.25-16.26.44:188][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-16.26.44:197][ 42]LogSavePackage: Save=8.56ms
+[2017.05.25-16.26.44:197][ 42]LogSavePackage: Moving 'D:/Restless/Restless/Saved/UI_Auto35F3986824567802C996C3199D5204C50.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto3.uasset'
+[2017.05.25-16.26.44:198][ 42]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto3.uasset
+[2017.05.25-16.26.44:198][ 42]LogFileHelpers: Auto-saving content packages took 0.011
+[2017.05.25-16.30.12:426][942]BlueprintLog: New page: Compile UI
+[2017.05.25-16.39.43:571][358]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.061
+[2017.05.25-16.39.43:573][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fabi/BP_Character_Player] ([1] browsable assets)...
+[2017.05.25-16.39.43:573][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fabi/BP_Character_Player]
+[2017.05.25-16.39.43:573][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fabi/BP_Character_Player" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Fabi/BP_Character_Player_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-16.39.43:634][358]LogSavePackage: Save=46.08ms
+[2017.05.25-16.39.43:634][358]LogSavePackage: Moving 'D:/Restless/Restless/Saved/BP_Character_Player_Auto47B95F4B34E29FD9D82FB92A9EF9465F4.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Fabi/BP_Character_Player_Auto4.uasset'
+[2017.05.25-16.39.43:635][358]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Fabi/BP_Character_Player_Auto4.uasset
+[2017.05.25-16.39.43:635][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI] ([1] browsable assets)...
+[2017.05.25-16.39.43:635][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI]
+[2017.05.25-16.39.43:635][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-16.39.43:648][358]LogSavePackage: Save=11.78ms
+[2017.05.25-16.39.43:648][358]LogSavePackage: Moving 'D:/Restless/Restless/Saved/UI_Auto41A8CD7954D4B35E1DED927ACF2D9B8D0.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto4.uasset'
+[2017.05.25-16.39.43:648][358]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto4.uasset
+[2017.05.25-16.39.43:648][358]LogFileHelpers: Auto-saving content packages took 0.076
+[2017.05.25-16.49.44:041][377]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.023
+[2017.05.25-16.49.44:042][377]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fabi/BP_Character_Player] ([1] browsable assets)...
+[2017.05.25-16.49.44:042][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fabi/BP_Character_Player]
+[2017.05.25-16.49.44:042][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fabi/BP_Character_Player" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Fabi/BP_Character_Player_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-16.49.44:125][377]LogSavePackage: Save=66.67ms
+[2017.05.25-16.49.44:125][377]LogSavePackage: Moving 'D:/Restless/Restless/Saved/BP_Character_Player_Auto5E40A447D443DDC6B1675A688F9CFBD2D.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Fabi/BP_Character_Player_Auto5.uasset'
+[2017.05.25-16.49.44:125][377]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Fabi/BP_Character_Player_Auto5.uasset
+[2017.05.25-16.49.44:125][377]LogFileHelpers: Auto-saving content packages took 0.084
+[2017.05.25-16.54.53:057][306]BlueprintLog: New page: Compile BP_Character_Player
+[2017.05.25-16.54.55:184][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fabi/BP_Character_Player" FILE="D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset" SILENT=true
+[2017.05.25-16.54.55:277][404]LogSavePackage: Save=77.36ms
+[2017.05.25-16.54.55:277][404]LogSavePackage: Moving 'D:/Restless/Restless/Saved/BP_Character_Player3F31146643228D2FF4ADBDA1CFB01B0D.tmp' to 'D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset'
+[2017.05.25-16.54.55:283][404]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Fabi/BP_Character_Player.uasset
+[2017.05.25-17.08.38:956][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.25-17.08.39:369][931]LogSavePackage: Save=375.39ms
+[2017.05.25-17.08.39:369][931]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_Auto647D64888417C1BCE1ACA38B680EC5F87.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto6.umap'
+[2017.05.25-17.08.39:370][931]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto6.umap
+[2017.05.25-17.08.39:377][931]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.464
+[2017.05.25-17.08.39:377][931]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.464
+[2017.05.25-17.11.22:391][199]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.25-17.11.22:470][199]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject
+
+[2017.05.25-17.11.22:470][199]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-17.11.22:470][199]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.25-17.11.22:470][199]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-17.11.22:474][199]LogTemp:Display: BranchPath = 2014-GA-28/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = 2014-GA-28/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.25-17.11.22:494][200]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Ein Teil des Pfades "C:\Users\bernd.gaykowski\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles" konnte nicht gefunden werden.
+
+[2017.05.25-17.11.22:510][201]LogTemp:Display:    bei System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.25-17.11.22:510][201]LogTemp:Display:    bei System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.25-17.11.22:510][201]LogTemp:Display:    bei System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.25-17.11.22:510][201]LogTemp:Display:    bei iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.25-17.11.22:510][201]LogTemp:Display:    bei iPhonePackager.Program.Main(String[] args)
+
+[2017.05.25-17.17.03:206][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuse2)
+[2017.05.25-17.19.00:088][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.25-17.19.00:472][590]LogSavePackage: Save=367.46ms
+[2017.05.25-17.19.00:472][590]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_Auto75851ED80447309D9E25D448C9B2227AE.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto7.umap'
+[2017.05.25-17.19.00:473][590]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto7.umap
+[2017.05.25-17.19.00:474][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.410
+[2017.05.25-17.19.00:474][590]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.410
+[2017.05.25-17.29.33:921][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.25-17.29.34:318][883]LogSavePackage: Save=382.07ms
+[2017.05.25-17.29.34:318][883]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_Auto83F4F7A4C4B3E5836FFE1F28547E72D96.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto8.umap'
+[2017.05.25-17.29.34:319][883]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto8.umap
+[2017.05.25-17.29.34:321][883]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.450
+[2017.05.25-17.29.34:321][883]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.450
+[2017.05.25-17.39.19:604][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane6)
+[2017.05.25-17.39.25:904][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuse2)
+[2017.05.25-17.39.34:449][352]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane4)
+[2017.05.25-17.39.36:067][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Test)
+[2017.05.25-17.39.39:913][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane4)
+[2017.05.25-17.39.41:147][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuse3)
+[2017.05.25-17.45.26:142][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.25-17.45.26:727][430]LogSavePackage: Save=569.38ms
+[2017.05.25-17.45.26:727][430]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_Auto9C2EFB8A049355A5A121971A96ED2D824.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto9.umap'
+[2017.05.25-17.45.26:728][430]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto9.umap
+[2017.05.25-17.45.26:729][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.625
+[2017.05.25-17.45.26:729][430]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.625
+[2017.05.25-17.58.00:760][556]BlueprintLog: New page: Compile Blockout_beat2
+[2017.05.25-17.58.02:633][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.25-17.58.03:033][643]LogSavePackage: Save=386.41ms
+[2017.05.25-17.58.03:033][643]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_Auto046835AE6463DAF301AA2568DCA6A882E.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto0.umap'
+[2017.05.25-17.58.03:034][643]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto0.umap
+[2017.05.25-17.58.03:035][643]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.420
+[2017.05.25-17.58.03:035][643]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.420
+[2017.05.25-17.58.04:368][707]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-17.58.04:392][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-17.58.04:392][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-17.58.04:392][707]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 9:58:04 PM)
+[2017.05.25-17.58.04:392][707]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-17.58.04:417][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024156s)
+[2017.05.25-17.58.04:418][707]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-17.58.04:418][707]LogPlayLevel: PIE: World Init took: (0.001234s)
+[2017.05.25-17.58.04:418][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.025891s)
+[2017.05.25-17.58.04:449][707]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-17.58.04:458][707]LogInit: FAudioDevice initialized.
+[2017.05.25-17.58.04:501][707]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-17.58.04:514][707]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-19.58.04
+[2017.05.25-17.58.04:516][707]LogWorld: Bringing up level for play took: 0.013308
+[2017.05.25-17.58.04:517][707]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-17.58.04:517][707]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-17.58.04:517][707]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-17.58.04:519][707]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-17.58.04:519][707]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.656
+[2017.05.25-17.58.04:519][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-17.58.29:554][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-17.58.29:649][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-17.58.56:187][622]Cmd: DELETE
+[2017.05.25-17.58.56:187][622]Cmd: ACTOR DELETE
+[2017.05.25-17.58.56:189][622]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.25-17.58.56:208][622]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.05.25-17.59.06:854][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuse2)
+[2017.05.25-17.59.14:583][648]Cmd: DELETE
+[2017.05.25-17.59.14:583][648]Cmd: ACTOR DELETE
+[2017.05.25-17.59.14:585][648]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.25-17.59.14:615][648]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2017.05.25-17.59.56:103][236]BlueprintLog: New page: Compile Blockout_beat2
+[2017.05.25-18.00.25:776][125]BlueprintLog: New page: Compile Blockout_beat2
+[2017.05.25-18.00.26:969][187]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.00.26:992][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.00.26:992][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.00.26:992][187]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:00:26 PM)
+[2017.05.25-18.00.26:992][187]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.00.27:017][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025183s)
+[2017.05.25-18.00.27:018][187]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.00.27:018][187]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.05.25-18.00.27:018][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.026129s)
+[2017.05.25-18.00.27:038][187]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.00.27:048][187]LogInit: FAudioDevice initialized.
+[2017.05.25-18.00.27:084][187]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.00.27:092][187]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.00.27
+[2017.05.25-18.00.27:093][187]LogWorld: Bringing up level for play took: 0.007826
+[2017.05.25-18.00.27:093][187]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.00.27:093][187]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.00.27:093][187]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.00.27:095][187]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.00.27:095][187]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.764
+[2017.05.25-18.00.27:095][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.00.29:055][303]PIE:Warning: Warning Mobility of Fuse2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.25-18.00.43:907][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.00.43:953][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.00.53:838][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuse2)
+[2017.05.25-18.01.12:286][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Test)
+[2017.05.25-18.01.13:106][718]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.01.13:134][718]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.13:134][718]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.25-18.01.13:134][718]LogPlayLevel: [PlayLevel] Compiling Blockout_beat2 before play...
+[2017.05.25-18.01.13:274][718]LogPlayLevel: PlayLevel: Blueprint regeneration took 139 ms (1 blueprints)
+[2017.05.25-18.01.13:274][718]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:01:13 PM)
+[2017.05.25-18.01.13:274][718]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.01.13:296][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021375s)
+[2017.05.25-18.01.13:296][718]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.01.13:296][718]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2017.05.25-18.01.13:297][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.022365s)
+[2017.05.25-18.01.13:321][718]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.01.13:331][718]LogInit: FAudioDevice initialized.
+[2017.05.25-18.01.13:362][718]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.01.13:370][718]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.01.13
+[2017.05.25-18.01.13:370][718]LogWorld: Bringing up level for play took: 0.007589
+[2017.05.25-18.01.13:371][718]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.01.13:371][718]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.01.13:371][718]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.01.13:372][718]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.01.13:372][718]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.486
+[2017.05.25-18.01.13:372][718]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.14:783][803]PIE:Warning: Warning Mobility of Fuse2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.25-18.01.19:551][ 99]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.19:634][ 99]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.24:107][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuse2)
+[2017.05.25-18.01.36:051][962]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.01.36:082][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.36:082][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.01.36:082][962]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:01:36 PM)
+[2017.05.25-18.01.36:083][962]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.01.36:103][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020167s)
+[2017.05.25-18.01.36:103][962]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.01.36:103][962]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2017.05.25-18.01.36:104][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.021237s)
+[2017.05.25-18.01.36:133][962]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.01.36:139][962]LogInit: FAudioDevice initialized.
+[2017.05.25-18.01.36:175][962]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.01.36:183][962]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.01.36
+[2017.05.25-18.01.36:184][962]LogWorld: Bringing up level for play took: 0.007305
+[2017.05.25-18.01.36:184][962]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.01.36:184][962]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.01.36:184][962]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.01.36:185][962]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.01.36:185][962]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.328
+[2017.05.25-18.01.36:185][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.37:861][ 67]PIE:Warning: Warning Mobility of Fuse2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.25-18.01.42:986][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.43:068][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.47:464][614]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.01.47:482][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.47:482][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.01.47:482][614]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:01:47 PM)
+[2017.05.25-18.01.47:482][614]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.01.47:511][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028473s)
+[2017.05.25-18.01.47:511][614]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.01.47:512][614]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2017.05.25-18.01.47:512][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.029715s)
+[2017.05.25-18.01.47:532][614]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.01.47:538][614]LogInit: FAudioDevice initialized.
+[2017.05.25-18.01.47:572][614]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.01.47:581][614]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.01.47
+[2017.05.25-18.01.47:582][614]LogWorld: Bringing up level for play took: 0.008241
+[2017.05.25-18.01.47:582][614]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.01.47:582][614]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.01.47:582][614]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.01.47:583][614]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.01.47:583][614]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.274
+[2017.05.25-18.01.47:584][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.49:226][714]PIE:Warning: Warning Mobility of Fuse2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.25-18.01.52:864][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.01.52:951][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.02.05:499][572]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.02.05:530][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.02.05:530][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.02.05:530][572]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:02:05 PM)
+[2017.05.25-18.02.05:531][572]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.02.05:551][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020693s)
+[2017.05.25-18.02.05:552][572]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.02.05:552][572]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2017.05.25-18.02.05:552][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.021652s)
+[2017.05.25-18.02.05:574][572]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.02.05:581][572]LogInit: FAudioDevice initialized.
+[2017.05.25-18.02.05:612][572]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.02.05:619][572]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.02.05
+[2017.05.25-18.02.05:620][572]LogWorld: Bringing up level for play took: 0.007139
+[2017.05.25-18.02.05:620][572]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.02.05:620][572]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.02.05:620][572]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.02.05:621][572]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.02.05:621][572]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.235
+[2017.05.25-18.02.05:622][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.02.14:121][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.02.14:208][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.02.17:713][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Test)
+[2017.05.25-18.02.18:708][322]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.02.18:737][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.02.18:737][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.02.18:737][322]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:02:18 PM)
+[2017.05.25-18.02.18:737][322]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.02.18:758][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020793s)
+[2017.05.25-18.02.18:759][322]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.02.18:759][322]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2017.05.25-18.02.18:759][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.021790s)
+[2017.05.25-18.02.18:783][322]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.02.18:793][322]LogInit: FAudioDevice initialized.
+[2017.05.25-18.02.18:826][322]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.02.18:834][322]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.02.18
+[2017.05.25-18.02.18:834][322]LogWorld: Bringing up level for play took: 0.007470
+[2017.05.25-18.02.18:835][322]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.02.18:835][322]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.02.18:835][322]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.02.18:836][322]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.02.18:836][322]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.98
+[2017.05.25-18.02.18:836][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.02.26:847][811]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.02.26:936][811]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.02.53:946][217]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume2)
+[2017.05.25-18.03.18:092][460]BlueprintLog: New page: Compile Blockout_beat2
+[2017.05.25-18.03.19:230][511]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.03.19:255][511]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.03.19:255][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.03.19:256][511]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:03:19 PM)
+[2017.05.25-18.03.19:256][511]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.03.19:280][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024435s)
+[2017.05.25-18.03.19:281][511]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.03.19:281][511]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.05.25-18.03.19:281][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.025421s)
+[2017.05.25-18.03.19:302][511]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.03.19:308][511]LogInit: FAudioDevice initialized.
+[2017.05.25-18.03.19:349][511]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.03.19:358][511]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.03.19
+[2017.05.25-18.03.19:358][511]LogWorld: Bringing up level for play took: 0.008081
+[2017.05.25-18.03.19:359][511]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.03.19:359][511]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.03.19:359][511]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.03.19:360][511]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.03.19:360][511]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.494
+[2017.05.25-18.03.19:361][511]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.03.34:411][467]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.03.34:500][467]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.03.43:675][941]BlueprintLog: New page: Compile Blockout_beat2
+[2017.05.25-18.03.44:537][976]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.03.44:555][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.03.44:555][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.03.44:555][976]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:03:44 PM)
+[2017.05.25-18.03.44:555][976]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.03.44:576][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020872s)
+[2017.05.25-18.03.44:577][976]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.03.44:577][976]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2017.05.25-18.03.44:578][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.022277s)
+[2017.05.25-18.03.44:607][976]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.03.44:616][976]LogInit: FAudioDevice initialized.
+[2017.05.25-18.03.44:659][976]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.03.44:669][976]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.03.44
+[2017.05.25-18.03.44:669][976]LogWorld: Bringing up level for play took: 0.008631
+[2017.05.25-18.03.44:670][976]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.03.44:670][976]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.03.44:670][976]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.03.44:671][976]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.03.44:671][976]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.817
+[2017.05.25-18.03.44:671][976]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.04.03:805][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.04.03:889][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.04.55:995][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuse)
+[2017.05.25-18.04.56:652][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuse2)
+[2017.05.25-18.06.50:131][389]BlueprintLog: New page: Compile Blockout_beat2
+[2017.05.25-18.06.53:052][539]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.06.53:071][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.06.53:072][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.06.53:072][539]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:06:53 PM)
+[2017.05.25-18.06.53:072][539]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.06.53:097][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024762s)
+[2017.05.25-18.06.53:097][539]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.06.53:097][539]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2017.05.25-18.06.53:097][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.025723s)
+[2017.05.25-18.06.53:118][539]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.06.53:125][539]LogInit: FAudioDevice initialized.
+[2017.05.25-18.06.53:163][539]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.06.53:171][539]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.06.53
+[2017.05.25-18.06.53:172][539]LogWorld: Bringing up level for play took: 0.007335
+[2017.05.25-18.06.53:172][539]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.06.53:172][539]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.06.53:172][539]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.06.53:173][539]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.06.53:173][539]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.677
+[2017.05.25-18.06.53:174][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.07.28:860][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.07.28:953][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.07.31:979][100]Cmd: DELETE
+[2017.05.25-18.07.31:979][100]Cmd: ACTOR DELETE
+[2017.05.25-18.07.31:980][100]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.25-18.07.32:003][100]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.05.25-18.07.33:956][230]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.07.33:975][230]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.07.33:976][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.07.33:976][230]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:07:33 PM)
+[2017.05.25-18.07.33:976][230]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.07.33:997][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021523s)
+[2017.05.25-18.07.33:998][230]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.07.33:998][230]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2017.05.25-18.07.33:999][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.022777s)
+[2017.05.25-18.07.34:025][230]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.07.34:032][230]LogInit: FAudioDevice initialized.
+[2017.05.25-18.07.34:071][230]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.07.34:082][230]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.07.34
+[2017.05.25-18.07.34:082][230]LogWorld: Bringing up level for play took: 0.009800
+[2017.05.25-18.07.34:083][230]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.07.34:083][230]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.07.34:083][230]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.07.34:084][230]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.07.34:084][230]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.235
+[2017.05.25-18.07.34:085][230]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.07.46:682][ 78]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.07.46:732][ 78]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.08.04:733][396]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.08.04:756][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.08.04:756][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.08.04:756][396]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:08:04 PM)
+[2017.05.25-18.08.04:756][396]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.08.04:780][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023820s)
+[2017.05.25-18.08.04:781][396]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.08.04:781][396]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.05.25-18.08.04:781][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.024682s)
+[2017.05.25-18.08.04:800][396]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.08.04:806][396]LogInit: FAudioDevice initialized.
+[2017.05.25-18.08.04:842][396]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.08.04:850][396]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.08.04
+[2017.05.25-18.08.04:850][396]LogWorld: Bringing up level for play took: 0.007394
+[2017.05.25-18.08.04:851][396]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.08.04:851][396]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.08.04:851][396]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.08.04:852][396]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.08.04:852][396]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 1.003
+[2017.05.25-18.08.04:853][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.08.35:924][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.08.35:978][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.08.42:071][931]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.08.42:089][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.08.42:089][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.08.42:089][931]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:08:42 PM)
+[2017.05.25-18.08.42:089][931]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.08.42:111][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021509s)
+[2017.05.25-18.08.42:112][931]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.08.42:112][931]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2017.05.25-18.08.42:113][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.023163s)
+[2017.05.25-18.08.42:137][931]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.08.42:143][931]LogInit: FAudioDevice initialized.
+[2017.05.25-18.08.42:176][931]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.08.42:186][931]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.08.42
+[2017.05.25-18.08.42:187][931]LogWorld: Bringing up level for play took: 0.009863
+[2017.05.25-18.08.42:188][931]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.08.42:188][931]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.08.42:188][931]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.08.42:190][931]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.08.42:190][931]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.342
+[2017.05.25-18.08.42:191][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.08.57:918][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.08.57:969][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.13.18:693][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.25-18.13.19:126][ 93]LogSavePackage: Save=420.28ms
+[2017.05.25-18.13.19:126][ 93]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_Auto1259C412344A5B66A2A9E9B956D14B8C7.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto1.umap'
+[2017.05.25-18.13.19:127][ 93]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto1.umap
+[2017.05.25-18.13.19:128][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.456
+[2017.05.25-18.13.19:128][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.456
+[2017.05.25-18.16.05:963][242]BlueprintLog: New page: Compile Blockout_beat2
+[2017.05.25-18.24.21:613][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.25-18.24.22:039][474]LogSavePackage: Save=412.34ms
+[2017.05.25-18.24.22:039][474]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_Auto2DC7E15FD45DCF1F6EFC61D85C448A10E.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto2.umap'
+[2017.05.25-18.24.22:040][474]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto2.umap
+[2017.05.25-18.24.22:042][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.467
+[2017.05.25-18.24.22:042][474]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.467
+[2017.05.25-18.24.22:044][474]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI] ([1] browsable assets)...
+[2017.05.25-18.24.22:044][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI]
+[2017.05.25-18.24.22:044][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-18.24.22:059][474]LogSavePackage: Save=14.68ms
+[2017.05.25-18.24.22:059][474]LogSavePackage: Moving 'D:/Restless/Restless/Saved/UI_Auto2CA54CC76433BFB4D4747B6B6766BC5A9.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto2.uasset'
+[2017.05.25-18.24.22:060][474]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto2.uasset
+[2017.05.25-18.24.22:060][474]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.05.25-18.27.37:619][  6]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  UIFuseOff  and was replaced as a Custom Event!
+[2017.05.25-18.27.37:639][  6]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  UIFuseOff  and was replaced as a Custom Event!
+[2017.05.25-18.28.40:861][522]BlueprintLog: New page: Compile UI
+[2017.05.25-18.28.41:923][579]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.28.41:942][579]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.28.41:942][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.28.41:942][579]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:28:41 PM)
+[2017.05.25-18.28.41:943][579]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.28.41:971][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027777s)
+[2017.05.25-18.28.41:971][579]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.28.41:972][579]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2017.05.25-18.28.41:972][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.029331s)
+[2017.05.25-18.28.41:993][579]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.28.42:001][579]LogInit: FAudioDevice initialized.
+[2017.05.25-18.28.42:041][579]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.28.42:051][579]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.28.42
+[2017.05.25-18.28.42:052][579]LogWorld: Bringing up level for play took: 0.009553
+[2017.05.25-18.28.42:053][579]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.28.42:053][579]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.28.42:053][579]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.28.42:054][579]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.28.42:054][579]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.236
+[2017.05.25-18.28.42:055][579]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.33.33:571][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.33.33:627][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.33.57:422][109]BlueprintLog: New page: Compile Blockout_beat2
+[2017.05.25-18.33.58:569][168]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.33.58:589][168]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.33.58:589][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.33.58:589][168]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:33:58 PM)
+[2017.05.25-18.33.58:590][168]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.33.58:609][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019768s)
+[2017.05.25-18.33.58:610][168]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.33.58:610][168]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2017.05.25-18.33.58:610][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.020740s)
+[2017.05.25-18.33.58:637][168]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.33.58:644][168]LogInit: FAudioDevice initialized.
+[2017.05.25-18.33.58:685][168]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.33.58:698][168]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.33.58
+[2017.05.25-18.33.58:699][168]LogWorld: Bringing up level for play took: 0.011644
+[2017.05.25-18.33.58:699][168]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.33.58:699][168]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.33.58:699][168]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.33.58:700][168]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.33.58:700][168]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.89
+[2017.05.25-18.33.58:701][168]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.35.12:371][600]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.35.12:420][600]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.35.34:111][642]BlueprintLog: New page: Compile UI
+[2017.05.25-18.35.35:944][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI" FILE="D:/Restless/Restless/Content/Blueprints/UI.uasset" SILENT=true
+[2017.05.25-18.35.35:968][708]LogSavePackage: Save=20.16ms
+[2017.05.25-18.35.35:968][708]LogSavePackage: Moving 'D:/Restless/Restless/Saved/UI0EC61DDA4E1FFFC99AFADC9A8AB2D87A.tmp' to 'D:/Restless/Restless/Content/Blueprints/UI.uasset'
+[2017.05.25-18.35.35:980][708]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Blueprints/UI.uasset
+[2017.05.25-18.36.42:946][969]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.25-18.36.43:017][969]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject
+
+[2017.05.25-18.36.43:017][969]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-18.36.43:017][969]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.25-18.36.43:017][969]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.25-18.36.43:017][969]LogTemp:Display: BranchPath = 2014-GA-28/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = 2014-GA-28/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.25-18.36.43:060][969]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Ein Teil des Pfades "C:\Users\bernd.gaykowski\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles" konnte nicht gefunden werden.
+
+[2017.05.25-18.36.43:060][969]LogTemp:Display:    bei System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.25-18.36.43:060][969]LogTemp:Display:    bei System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.25-18.36.43:060][969]LogTemp:Display:    bei System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.25-18.36.43:060][969]LogTemp:Display:    bei iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.25-18.36.43:060][969]LogTemp:Display:    bei iPhonePackager.Program.Main(String[] args)
+
+[2017.05.25-18.37.09:610][554]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.25-18.37.12:713][778]BlueprintLog: New page: Compile GameMode_Fabi
+[2017.05.25-18.37.13:519][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fabi/GameMode_Fabi" FILE="D:/Restless/Restless/Content/Fabi/GameMode_Fabi.uasset" SILENT=true
+[2017.05.25-18.37.13:555][811]LogSavePackage: Save=11.79ms
+[2017.05.25-18.37.13:555][811]LogSavePackage: Moving 'D:/Restless/Restless/Saved/GameMode_FabiEF5853FB424E9F1002E764835E52C514.tmp' to 'D:/Restless/Restless/Content/Fabi/GameMode_Fabi.uasset'
+[2017.05.25-18.37.13:556][811]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Fabi/GameMode_Fabi.uasset
+[2017.05.25-18.38.55:859][531]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.25-18.39.13:860][ 85]BlueprintLog: New page: Compile NewHUD
+[2017.05.25-18.39.14:483][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewHUD" FILE="D:/Restless/Restless/Content/Blueprints/NewHUD.uasset" SILENT=true
+[2017.05.25-18.39.14:504][112]LogSavePackage: Save=19.33ms
+[2017.05.25-18.39.14:504][112]LogSavePackage: Moving 'D:/Restless/Restless/Saved/NewHUD51D0F49F409DB2B4ABC52A9DA7013DD9.tmp' to 'D:/Restless/Restless/Content/Blueprints/NewHUD.uasset'
+[2017.05.25-18.39.14:509][112]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Blueprints/NewHUD.uasset
+[2017.05.25-18.39.19:949][332]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.39.19:986][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.39.19:987][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.39.19:987][332]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:39:19 PM)
+[2017.05.25-18.39.19:987][332]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.39.20:006][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019592s)
+[2017.05.25-18.39.20:007][332]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.39.20:007][332]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2017.05.25-18.39.20:007][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.020637s)
+[2017.05.25-18.39.20:029][332]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.39.20:039][332]LogInit: FAudioDevice initialized.
+[2017.05.25-18.39.20:072][332]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.39.20:080][332]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.39.20
+[2017.05.25-18.39.20:081][332]LogWorld: Bringing up level for play took: 0.007908
+[2017.05.25-18.39.20:082][332]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.39.20:082][332]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.39.20:082][332]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.39.20:085][332]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.39.20:085][332]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.281
+[2017.05.25-18.39.20:085][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.39.31:713][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.39.31:770][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.39.46:296][603]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.39.46:324][603]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.39.46:324][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.39.46:324][603]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:39:46 PM)
+[2017.05.25-18.39.46:324][603]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.39.46:344][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019847s)
+[2017.05.25-18.39.46:345][603]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.39.46:345][603]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.05.25-18.39.46:345][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.020788s)
+[2017.05.25-18.39.46:371][603]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.39.46:381][603]LogInit: FAudioDevice initialized.
+[2017.05.25-18.39.46:411][603]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.39.46:420][603]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.39.46
+[2017.05.25-18.39.46:420][603]LogWorld: Bringing up level for play took: 0.007711
+[2017.05.25-18.39.46:421][603]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.39.46:421][603]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.39.46:421][603]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.39.46:422][603]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.39.46:422][603]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.619
+[2017.05.25-18.39.46:423][603]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.39.52:540][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.39.52:593][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.39.59:553][341]BlueprintLog: New page: Compile Blockout_beat2
+[2017.05.25-18.40.00:985][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Curve_9)
+[2017.05.25-18.40.01:838][448]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.40.01:858][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.40.01:858][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.40.01:858][448]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:40:01 PM)
+[2017.05.25-18.40.01:858][448]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.40.01:886][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027938s)
+[2017.05.25-18.40.01:886][448]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.40.01:887][448]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2017.05.25-18.40.01:887][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.028965s)
+[2017.05.25-18.40.01:908][448]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.40.01:915][448]LogInit: FAudioDevice initialized.
+[2017.05.25-18.40.01:943][448]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.40.01:953][448]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.40.01
+[2017.05.25-18.40.01:953][448]LogWorld: Bringing up level for play took: 0.009909
+[2017.05.25-18.40.01:954][448]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.40.01:954][448]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.40.01:954][448]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.40.01:956][448]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.40.01:956][448]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.153
+[2017.05.25-18.40.01:957][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.40.06:749][722]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.40.06:851][722]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.40.08:014][769]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.40.08:039][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.40.08:039][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.40.08:040][769]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:40:08 PM)
+[2017.05.25-18.40.08:040][769]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.40.08:061][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021596s)
+[2017.05.25-18.40.08:062][769]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.40.08:062][769]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2017.05.25-18.40.08:062][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.022672s)
+[2017.05.25-18.40.08:088][769]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.40.08:097][769]LogInit: FAudioDevice initialized.
+[2017.05.25-18.40.08:131][769]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.40.08:138][769]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.40.08
+[2017.05.25-18.40.08:139][769]LogWorld: Bringing up level for play took: 0.007283
+[2017.05.25-18.40.08:139][769]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.40.08:139][769]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.40.08:139][769]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.40.08:141][769]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.40.08:141][769]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.338
+[2017.05.25-18.40.08:141][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.40.17:334][290]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.40.17:421][290]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.41.36:239][691]BlueprintLog: New page: Compile UI
+[2017.05.25-18.41.37:109][726]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.25-18.41.37:138][726]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.41.37:138][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-18.41.37:138][726]PIE: New page: PIE session: Blockout_beat2 (May 25, 2017, 10:41:37 PM)
+[2017.05.25-18.41.37:138][726]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.25-18.41.37:159][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021076s)
+[2017.05.25-18.41.37:160][726]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.25-18.41.37:160][726]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2017.05.25-18.41.37:160][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.022345s)
+[2017.05.25-18.41.37:185][726]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-18.41.37:194][726]LogInit: FAudioDevice initialized.
+[2017.05.25-18.41.37:231][726]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.25-18.41.37:242][726]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.25-20.41.37
+[2017.05.25-18.41.37:242][726]LogWorld: Bringing up level for play took: 0.009682
+[2017.05.25-18.41.37:243][726]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.41.37:243][726]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-18.41.37:243][726]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.41.37:245][726]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-18.41.37:245][726]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.557
+[2017.05.25-18.41.37:245][726]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.41.53:353][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.41.53:453][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.25-18.42.27:343][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.25-18.42.27:759][384]LogSavePackage: Save=400.91ms
+[2017.05.25-18.42.27:759][384]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_Auto3BB8A7E8348906086E59D199856A1C0EB.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto3.umap'
+[2017.05.25-18.42.27:760][384]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto3.umap
+[2017.05.25-18.42.27:761][384]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.454
+[2017.05.25-18.42.27:761][384]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.454
+[2017.05.25-18.42.27:763][384]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI] ([1] browsable assets)...
+[2017.05.25-18.42.27:763][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI]
+[2017.05.25-18.42.27:763][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.25-18.42.27:792][384]LogSavePackage: Save=17.59ms
+[2017.05.25-18.42.27:792][384]LogSavePackage: Moving 'D:/Restless/Restless/Saved/UI_Auto302B332CC487779F1956F0BA3E105E3D4.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto3.uasset'
+[2017.05.25-18.42.27:793][384]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Blueprints/UI_Auto3.uasset
+[2017.05.25-18.42.27:793][384]LogFileHelpers: Auto-saving content packages took 0.030
+[2017.05.25-18.43.23:057][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.25-18.43.23:348][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.25-18.43.32:318][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Content/Levels/Blockout_beat2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.25-18.43.32:740][846]LogSavePackage: Save=379.97ms
+[2017.05.25-18.43.32:741][846]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat265CCB77B4AB3F28322AF91A188310679.tmp' to 'D:/Restless/Restless/Content/Levels/Blockout_beat2.umap'
+[2017.05.25-18.43.32:747][846]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Levels/Blockout_beat2.umap
+[2017.05.25-18.43.32:809][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2_BuiltData" FILE="D:/Restless/Restless/Content/Levels/Blockout_beat2_BuiltData.uasset" SILENT=true
+[2017.05.25-18.43.33:321][846]LogSavePackage: Save=304.10ms
+[2017.05.25-18.43.33:321][846]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_BuiltData611F40994D94D2D3F4936AA038790317.tmp' to 'D:/Restless/Restless/Content/Levels/Blockout_beat2_BuiltData.uasset'
+[2017.05.25-18.43.33:322][846]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Levels/Blockout_beat2_BuiltData.uasset
+[2017.05.25-18.43.40:964][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI" FILE="D:/Restless/Restless/Content/Blueprints/UI.uasset" SILENT=true
+[2017.05.25-18.43.40:994][581]LogSavePackage: Save=21.35ms
+[2017.05.25-18.43.40:994][581]LogSavePackage: Moving 'D:/Restless/Restless/Saved/UIC56A84794A59D79799BF018EB9765458.tmp' to 'D:/Restless/Restless/Content/Blueprints/UI.uasset'
+[2017.05.25-18.43.41:000][581]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Blueprints/UI.uasset
+[2017.05.25-18.43.41:007][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PressE" FILE="D:/Restless/Restless/Content/Blueprints/PressE.uasset" SILENT=true
+[2017.05.25-18.43.41:013][581]LogSavePackage: Save=5.62ms
+[2017.05.25-18.43.41:013][581]LogSavePackage: Moving 'D:/Restless/Restless/Saved/PressE43B2E15645B73D97D42D018AA8BDA982.tmp' to 'D:/Restless/Restless/Content/Blueprints/PressE.uasset'
+[2017.05.25-18.43.41:016][581]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Blueprints/PressE.uasset
+[2017.05.25-18.43.41:022][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FuseCell" FILE="D:/Restless/Restless/Content/Blueprints/FuseCell.uasset" SILENT=true
+[2017.05.25-18.43.41:029][581]LogSavePackage: Save=5.55ms
+[2017.05.25-18.43.41:029][581]LogSavePackage: Moving 'D:/Restless/Restless/Saved/FuseCellACECF6CF4283A57A001626B05CDCA218.tmp' to 'D:/Restless/Restless/Content/Blueprints/FuseCell.uasset'
+[2017.05.25-18.43.41:030][581]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Content/Blueprints/FuseCell.uasset
+[2017.05.25-18.43.44:080][887]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.25-18.43.44:364][888]Cmd: QUIT_EDITOR
+[2017.05.25-18.43.44:907][888]LogExit: Preparing to exit.
+[2017.05.25-18.43.45:684][888]LogExit: Editor shut down
+[2017.05.25-18.43.45:686][888]LogExit: Transaction tracking system shut down
+[2017.05.25-18.43.45:850][888]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.25-18.43.45:851][888]LogExit: Object subsystem successfully closed.
+[2017.05.25-18.43.45:879][888]LogD3D11RHI: Shutdown
+[2017.05.25-18.43.45:879][888]LogD3D11RHI: CleanupD3DDevice
+[2017.05.25-18.43.46:067][888]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.25-18.43.46:085][888]LogModuleManager: Shutting down and abandoning module SequencerWidgets (508)
+[2017.05.25-18.43.46:085][888]LogModuleManager: Shutting down and abandoning module BlueprintGraph (506)
+[2017.05.25-18.43.46:085][888]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (504)
+[2017.05.25-18.43.46:085][888]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (502)
+[2017.05.25-18.43.46:085][888]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.05.25-18.43.46:085][888]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.25-18.43.46:085][888]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.25-18.43.46:085][888]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.05.25-18.43.46:085][888]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.05.25-18.43.46:091][888]LogDirectoryWatcher: A directory notification for 'D:/Restless/Restless/Content/Collections/' was aborted.
+[2017.05.25-18.43.46:091][888]LogDirectoryWatcher: A directory notification for 'D:/Restless/Restless/Content/Developers/BerndGaykowski/Collections/' was aborted.
+[2017.05.25-18.43.46:091][888]LogDirectoryWatcher: A directory notification for 'D:/Restless/Restless/Saved/Collections/' was aborted.
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module SceneOutliner (486)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.25-18.43.46:091][888]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.25-18.43.46:092][888]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.25-18.43.46:092][888]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.25-18.43.46:092][888]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.25-18.43.46:092][888]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.25-18.43.46:092][888]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.25-18.43.46:092][888]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.25-18.43.46:092][888]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.25-18.43.46:954][888]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.25-18.43.46:955][888]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.25-18.43.46:955][888]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.25-18.43.46:955][888]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.25-18.43.46:956][888]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.25-18.43.46:956][888]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.25-18.43.46:956][888]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.25-18.43.46:956][888]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.25-18.43.46:956][888]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.25-18.43.47:011][888]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.25-18.43.47:011][888]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.25-18.43.47:011][888]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.25-18.43.47:011][888]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.25-18.43.47:011][888]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.25-18.43.47:011][888]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.25-18.43.47:013][888]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.25-18.43.47:013][888]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.25-18.43.47:013][888]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.25-18.43.47:035][888]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.25-18.43.47:035][888]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.25-18.43.47:037][888]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.25-18.43.47:037][888]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.25-18.43.47:037][888]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.25-18.43.47:037][888]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.25-18.43.47:037][888]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.25-18.43.47:037][888]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.25-18.43.47:038][888]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.25-18.43.47:072][888]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.25-18.43.47:073][888]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.25-18.43.47:075][888]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.25-18.43.47:075][888]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.25-18.43.47:075][888]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.25-18.43.47:076][888]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.25-18.43.47:079][888]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.25-18.43.47:079][888]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.25-18.43.47:079][888]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.25-18.43.47:079][888]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.25-18.43.47:180][888]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.25-18.43.47:281][888]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.25-18.43.47:282][888]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.25-18.43.47:282][888]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.25-18.43.47:282][888]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.25-18.43.47:282][888]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.25-18.43.47:282][888]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.25-18.43.47:282][888]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.25-18.43.47:286][888]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.25-18.43.47:286][888]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.25-18.43.47:286][888]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.25-18.43.47:286][888]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.25-18.43.47:287][888]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.25-18.43.47:287][888]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.25-18.43.47:464][888]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.25-18.43.47:464][888]LogDirectoryWatcher: A directory notification for 'D:/Restless/Restless/Content/' was aborted.
+[2017.05.25-18.43.47:464][888]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.25-18.43.47:465][888]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.25-18.43.47:470][888]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.25-18.43.47:470][888]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.25-18.43.47:470][888]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.25-18.43.47:470][888]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.25-18.43.47:470][888]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.25-18.43.47:470][888]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.25-18.43.47:470][888]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.25-18.43.47:470][888]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.25-18.43.47:507][888]LogDerivedDataCache: Shutdown
+[2017.05.25-18.43.47:507][888]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.25-18.43.47:507][888]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.25-18.43.47:508][888]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.25-18.43.47:509][888]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.25-18.43.47:510][888]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.25-18.43.47:510][888]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.25-18.43.47:510][888]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.25-18.43.47:510][888]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.25-18.43.47:510][888]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.25-18.43.47:510][888]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.25-18.43.47:510][888]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.25-18.43.47:510][888]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.25-18.43.47:510][888]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.25-18.43.47:510][888]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B4C5BF7-48ED-2F9F-691E-97843E856363%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=8363d79849ecf5ea1696738a452eb131%7C6fc7ed514cf84702a70558cf329aac50%7C827e0421-0152-46d9-82bc-c506fa749be3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.25-18.43.47:539][888]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.25-18.43.47:543][888]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.25-18.43.47:543][888]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.25-18.43.47:543][888]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.25-18.43.47:543][888]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.25-18.43.47:543][888]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.25-18.43.47:577][888]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.25-18.43.47:580][888]LogExit: Exiting.
+[2017.05.25-18.43.47:602][888]Log file closed, 05/25/17 20:43:47
+>>>>>>> BerndFeature
