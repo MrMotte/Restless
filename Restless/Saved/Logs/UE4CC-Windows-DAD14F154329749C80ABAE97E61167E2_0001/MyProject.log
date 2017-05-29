@@ -1,0 +1,490 @@
+﻿Log file open, 05/29/17 17:28:57
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-632506656) SRandInit(-632506656).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.106261
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.29-15.28.59:213][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.29-15.28.59:213][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.29-15.28.59:259][  0]LogInit: Computer: 2014-GA-28
+[2017.05.29-15.28.59:259][  0]LogInit: User: BerndGaykowski
+[2017.05.29-15.28.59:259][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.29-15.28.59:259][  0]LogInit: High frequency timer resolution =3.117782 MHz
+[2017.05.29-15.28.59:260][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.29-15.28.59:260][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.29-15.28.59:260][  0]LogMemory: Process Physical Memory: 263.12 MB used, 263.12 MB peak
+[2017.05.29-15.28.59:260][  0]LogMemory: Process Virtual Memory: 262.11 MB used, 262.11 MB peak
+[2017.05.29-15.28.59:260][  0]LogMemory: Physical Memory: 5985.52 MB used,  2091.77 MB free, 8077.28 MB total
+[2017.05.29-15.28.59:260][  0]LogMemory: Virtual Memory: 644.27 MB used,  2091.77 MB free, 134217728.00 MB total
+[2017.05.29-15.28.59:747][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.29-15.29.04:233][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.29-15.29.05:153][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.05.29-15.29.05:153][  0]LogD3D11RHI:       2017/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.29-15.29.05:181][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.29-15.29.05:181][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.29-15.29.05:183][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.29-15.29.05:183][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.29-15.29.05:183][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.29-15.29.05:196][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.29-15.29.05:196][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.29-15.29.05:196][  0]LogWindows: EnumDisplayDevices:
+[2017.05.29-15.29.05:198][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.05.29-15.29.05:198][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.05.29-15.29.05:198][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.05.29-15.29.05:198][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.05.29-15.29.05:198][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.05.29-15.29.05:199][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.29-15.29.05:199][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.29-15.29.05:199][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.05.29-15.29.05:199][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.05.29-15.29.05:200][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.05.29-15.29.05:200][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.05.29-15.29.05:200][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.29-15.29.06:056][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.29-15.29.06:061][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.29-15.29.06:176][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.29-15.29.06:191][  0]LogShaderCompilers: Guid format shader working directory is 36 characters bigger than the processId version (D:/Restless/Restless/Intermediate/Shaders/WorkingDirectory/6168/).
+[2017.05.29-15.29.06:192][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bernd.gaykowski/AppData/Local/Temp/UnrealShaderWorkingDir/60B6F0E247C32BE65CAE868CB149D5ED/'.
+[2017.05.29-15.29.06:192][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.29-15.29.10:037][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.29-15.29.10:108][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.29-15.29.10:173][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.29-15.29.10:288][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.29-15.29.10:369][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.29-15.29.10:440][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.29-15.29.10:526][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.29-15.29.10:610][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.29-15.29.10:688][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.29-15.29.10:770][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.29-15.29.10:843][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.29-15.29.10:913][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.29-15.29.10:998][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.29-15.29.11:068][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.29-15.29.11:138][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.29-15.29.11:277][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.29-15.29.11:277][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.29-15.29.11:323][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.29-15.29.11:473][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.29-15.29.11:519][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.29-15.29.11:664][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.29-15.29.11:762][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.29-15.29.11:835][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.29-15.29.11:913][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.29-15.29.11:913][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.29-15.29.13:065][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.29-15.29.13:354][  0]LogDerivedDataCache: Loaded boot cache 0.29s 50MB C:/Users/bernd.gaykowski/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.29-15.29.13:354][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bernd.gaykowski/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.29-15.29.13:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Restless/Restless/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.29-15.29.13:354][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.29-15.29.13:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Restless/Restless/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.29-15.29.13:354][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.29-15.29.13:378][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.29-15.29.13:390][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bernd.gaykowski/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.29-15.29.13:416][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.29-15.29.13:430][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.29-15.29.13:430][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.29-15.29.18:718][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.29-15.29.18:731][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.29-15.29.19:174][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.29-15.29.19:231][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.29-15.29.19:292][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.29-15.29.19:292][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.29-15.29.19:292][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.29-15.29.21:483][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: myproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4136520461
+[2017.05.29-15.29.21:554][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2017.05.29-15.29.21:729][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.113424 seconds
+[2017.05.29-15.29.21:741][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.29-15.29.21:741][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.29-15.29.21:741][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.29-15.29.21:829][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.29-15.29.27:244][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.29-15.29.27:308][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.29-15.29.28:252][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.29-15.29.28:970][  0]SourceControl: Info Source control is disabled
+[2017.05.29-15.29.29:139][  0]SourceControl: Info Source control is disabled
+[2017.05.29-15.29.29:217][  0]SourceControl: Info Source control is disabled
+[2017.05.29-15.29.29:295][  0]SourceControl: Info Source control is disabled
+[2017.05.29-15.29.31:285][  0]LogEngine: Initializing Engine...
+[2017.05.29-15.29.31:288][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.29-15.29.31:878][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.29-15.29.31:921][  0]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.29-15.29.31:955][  0]LogInit: FAudioDevice initialized.
+[2017.05.29-15.29.31:996][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/bernd.gaykowski/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.29-15.29.32:006][  0]LogInit: Texture streaming: Enabled
+[2017.05.29-15.29.32:145][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.29-15.29.32:301][  0]LogInit: Transaction tracking system initialized
+[2017.05.29-15.29.32:830][  0]BlueprintLog: New page: Editor Load
+[2017.05.29-15.29.34:257][  0]LocalizationService: Info Localization service is disabled
+[2017.05.29-15.29.35:357][  0]LogConsoleResponse:Display: 
+[2017.05.29-15.29.35:935][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.29-15.29.35:936][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.29-15.29.36:869][  0]LogFileCache: Scanning file cache for directory 'D:/Restless/Restless/Content/' took 0.02s
+[2017.05.29-15.29.37:720][  0]SourceControl: Info Source control is disabled
+[2017.05.29-15.29.37:723][  0]Cmd: MAP LOAD FILE="D:/Restless/Restless/Content/Levels/Blockout_beat2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.29-15.29.37:725][  0]LightingResults: New page: Lighting Build
+[2017.05.29-15.29.37:804][  0]MapCheck: New page: Map Check
+[2017.05.29-15.29.37:804][  0]LightingResults: New page: Lighting Build
+[2017.05.29-15.29.38:015][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:015][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:016][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:016][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:016][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:016][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:018][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning [0044.30] Compile of PersistentLevel.Blockout_beat2 successful, but with 6 Warning(s) [in 10 ms] (/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2)
+[2017.05.29-15.29.38:018][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning [0044.30] Compile of PersistentLevel.Blockout_beat2 successful, but with 7 Warning(s) [in 0 ms] (/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2)
+[2017.05.29-15.29.38:018][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning [0044.30] Compile of PersistentLevel.Blockout_beat2 successful, but with 8 Warning(s) [in 0 ms] (/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2)
+[2017.05.29-15.29.38:028][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:028][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:028][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:028][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:028][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:028][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.29.38:032][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning [0044.31] Compile of PersistentLevel.Blockout_beat2 successful, but with 6 Warning(s) [in 11 ms] (/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2)
+[2017.05.29-15.29.38:032][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning [0044.31] Compile of PersistentLevel.Blockout_beat2 successful, but with 7 Warning(s) [in 0 ms] (/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2)
+[2017.05.29-15.29.38:032][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Blockout_beat2] Warning [0044.31] Compile of PersistentLevel.Blockout_beat2 successful, but with 8 Warning(s) [in 0 ms] (/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2)
+[2017.05.29-15.29.38:103][  0]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.29-15.29.38:136][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.29-15.29.38:139][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.29-15.29.38:191][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.647ms to complete.
+[2017.05.29-15.29.38:191][  0]LogFileHelpers: Loading map 'Blockout_beat2' took 0.469
+[2017.05.29-15.29.38:610][  0]LogCollectionManager: Loaded 0 collections in 0.001453 seconds
+[2017.05.29-15.29.38:736][  0]LogFileCache: Scanning file cache for directory 'D:/Restless/Restless/Saved/Collections/' took 0.01s
+[2017.05.29-15.29.38:736][  0]LogFileCache: Scanning file cache for directory 'D:/Restless/Restless/Content/Developers/BerndGaykowski/Collections/' took 0.01s
+[2017.05.29-15.29.38:736][  0]LogFileCache: Scanning file cache for directory 'D:/Restless/Restless/Content/Collections/' took 0.01s
+[2017.05.29-15.29.38:736][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.29-15.29.38:749][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2246 classes and 455 folders.
+[2017.05.29-15.29.38:757][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.29-15.29.38:758][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.29-15.29.38:836][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.29-15.29.39:373][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.05.29-15.29.39:657][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0008 seconds. Added 1 classes and 3 folders.
+[2017.05.29-15.29.39:709][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.29-15.29.39:766][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.29-15.29.39:885][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.05.29-15.29.39:885][  0]LogLoad: (Engine Initialization) Total time: 46.16 seconds
+[2017.05.29-15.29.39:885][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.05.29-15.29.39:885][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.29-15.29.39:885][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.29-15.29.39:899][  0]LogOcInput: OculusInput pre-init called
+[2017.05.29-15.29.39:950][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.29-15.29.39:964][  0]LogSlate: Took 0.006417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.29-15.29.39:977][  0]LogSlate: Took 0.008312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.29-15.29.39:999][  0]LogSlate: Took 0.009627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.29-15.29.40:319][  0]LogSlate: Took 0.012661 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.29-15.29.40:370][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.29-15.29.42:064][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Restless/Restless/Content/' took 2.15s
+[2017.05.29-15.29.42:080][  1]LogAssetRegistry: Asset discovery search completed in 20.5495 seconds
+[2017.05.29-15.29.42:080][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.05.29-15.29.42:080][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.05.29-15.40.33:934][ 98]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.29-15.42.14:526][252]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.29-15.42.16:289][347]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.29-15.42.17:073][347]LogSlate: Took 0.005989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.29-15.42.17:396][348]LogSlate: Took 0.011674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.29-15.42.41:966][254]LogBlueprint:Warning: [Gameplay] 'CollectedFuse?' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:966][254]LogBlueprint:Warning: [Gameplay] 'CollectedFuse?' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:966][254]LogBlueprint:Warning: [Gameplay] 'CollectedFuse?' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:966][254]LogBlueprint:Warning: [Gameplay] 'CollectedFuse?' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:966][254]LogBlueprint:Warning: [Gameplay] 'CollectedFuse?' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:966][254]LogBlueprint:Warning: [Gameplay] 'FuseboxAlreadyUsed?' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:967][254]LogBlueprint:Warning: [Gameplay] 'FuseboxAlreadyUsed?' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:967][254]LogBlueprint:Warning: [Gameplay] 'FuseboxAlreadyUsed?' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:967][254]LogBlueprint:Warning: [Gameplay] 'FuseUITrigger' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:967][254]LogBlueprint:Warning: [Gameplay] 'FuseUITrigger' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:967][254]LogBlueprint:Warning: [Gameplay] 'FuseUITrigger' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:967][254]LogBlueprint:Warning: [Gameplay] 'FuseUITrigger' variable not found. Base class was probably changed.
+[2017.05.29-15.42.41:967][254]LogBlueprint:Warning: [Gameplay] 'FuseUITrigger' variable not found. Base class was probably changed.
+[2017.05.29-15.43.02:386][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuse2)
+[2017.05.29-15.43.59:814][810]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume2)
+[2017.05.29-15.45.33:111][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Blockout_beat2" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.29-15.45.33:305][919]LogSavePackage: Save=133.37ms
+[2017.05.29-15.45.33:305][919]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Blockout_beat2_Auto19EDC4FCF43ED2AFBCE432CA79C3BEDF6.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto1.umap'
+[2017.05.29-15.45.33:306][919]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Blockout_beat2_Auto1.umap
+[2017.05.29-15.45.33:315][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Gameplay" FILE="D:/Restless/Restless/Saved/Autosaves/Game/Levels/Gameplay_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.29-15.45.33:354][919]LogBlueprint:Warning: [Compiler PersistentLevel.Gameplay] Warning Node  Unknown  is not referencing a valid level actor
+[2017.05.29-15.45.33:358][919]LogBlueprint:Warning: [Compiler PersistentLevel.Gameplay] Warning [0999.66] Compile of PersistentLevel.Gameplay successful, but with 1 Warning(s) [in 15 ms] (/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay)
+[2017.05.29-15.45.33:358][919]LogBlueprint:Warning: [Compiler PersistentLevel.Gameplay] Warning [0999.66] Compile of PersistentLevel.Gameplay successful, but with 2 Warning(s) [in 0 ms] (/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay)
+[2017.05.29-15.45.33:358][919]LogBlueprint:Warning: [Compiler PersistentLevel.Gameplay] Warning [0999.66] Compile of PersistentLevel.Gameplay successful, but with 3 Warning(s) [in 0 ms] (/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay)
+[2017.05.29-15.45.33:435][919]LogBlueprint:Warning: [Compiler PersistentLevel.Gameplay] Warning [0999.74] Compile of PersistentLevel.Gameplay successful, but with 4 Warning(s) [in 76 ms] (/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay)
+[2017.05.29-15.45.33:439][919]LogBlueprint:Warning: [Compiler PersistentLevel.Gameplay] Warning [0999.74] Compile of PersistentLevel.Gameplay successful, but with 5 Warning(s) [in 3 ms] (/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay)
+[2017.05.29-15.45.33:439][919]LogBlueprint:Warning: [Compiler PersistentLevel.Gameplay] Warning [0999.74] Compile of PersistentLevel.Gameplay successful, but with 6 Warning(s) [in 0 ms] (/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay)
+[2017.05.29-15.45.33:536][919]LogSavePackage: Save=205.06ms
+[2017.05.29-15.45.33:536][919]LogSavePackage: Moving 'D:/Restless/Restless/Saved/Gameplay_Auto10AE7ED3D4B1ABE7224BB4C97E42E243D.tmp' to 'D:/Restless/Restless/Saved/Autosaves/Game/Levels/Gameplay_Auto1.umap'
+[2017.05.29-15.45.33:537][919]LogSavePackage:Display: Finished SavePackage D:/Restless/Restless/Saved/Autosaves/Game/Levels/Gameplay_Auto1.umap
+[2017.05.29-15.45.33:538][919]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Blockout_beat2' took 0.474
+[2017.05.29-15.45.33:538][919]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.474
+[2017.05.29-15.46.30:395][258]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2017.05.29-15.47.12:731][ 61]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.29-15.47.12:753][ 61]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.12:753][ 61]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.47.12:754][ 61]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.29-15.47.12:754][ 61]LogPlayLevel: [PlayLevel] Compiling Gameplay before play...
+[2017.05.29-15.47.12:878][ 61]LogPlayLevel: PlayLevel: Blueprint regeneration took 124 ms (1 blueprints)
+[2017.05.29-15.47.12:885][ 61]PIE: New page: PIE session: Blockout_beat2 (May 29, 2017, 7:47:12 PM)
+[2017.05.29-15.47.12:886][ 61]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.29-15.47.12:890][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003554s)
+[2017.05.29-15.47.12:890][ 61]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.29-15.47.12:890][ 61]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2017.05.29-15.47.12:891][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.004730s)
+[2017.05.29-15.47.12:918][ 61]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.29-15.47.12:926][ 61]LogInit: FAudioDevice initialized.
+[2017.05.29-15.47.13:000][ 61]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.29-15.47.13:012][ 61]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.29-17.47.13
+[2017.05.29-15.47.13:014][ 61]LogWorld: Bringing up level for play took: 0.001994
+[2017.05.29-15.47.13:018][ 61]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.29-15.47.13:211][ 61]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.05.29-15.47.13:615][ 61]LogMaterial: Missing cached shader map for material FuseBox_LP_FuseBox_OcclusionRoughnessMetallic_Mat, compiling. 
+[2017.05.29-15.47.13:619][ 61]LogMaterial:Warning: Failed to compile Material /Game/Probs/FuseBox/FuseBox_LP_FuseBox_OcclusionRoughnessMetallic_Mat.FuseBox_LP_FuseBox_OcclusionRoughnessMetallic_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-15.47.13:619][ 61]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/Probs/FuseBox/FuseBox_LP_FuseBox_OcclusionRoughnessMetallic.FuseBox_LP_FuseBox_OcclusionRoughnessMetallic
+[2017.05.29-15.47.13:834][ 61]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.47.13:834][ 61]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.47.13:834][ 61]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.47.13:842][ 61]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=-14.750] for [BP_Character_Player_C]
+[2017.05.29-15.47.13:845][ 61]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Character_Player_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.05.29-15.47.13:858][ 61]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.47.13:858][ 61]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 2.088
+[2017.05.29-15.47.13:890][ 61]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.13:890][ 61]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.47.19:096][349]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.19:096][349]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.47.19:187][349]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.19:187][349]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.47.31:327][ 44]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.29-15.47.31:342][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.31:342][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.47.31:342][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-15.47.31:342][ 44]PIE: New page: PIE session: Blockout_beat2 (May 29, 2017, 7:47:31 PM)
+[2017.05.29-15.47.31:342][ 44]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.29-15.47.31:344][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001490s)
+[2017.05.29-15.47.31:344][ 44]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.29-15.47.31:344][ 44]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2017.05.29-15.47.31:344][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.002240s)
+[2017.05.29-15.47.31:367][ 44]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.29-15.47.31:377][ 44]LogInit: FAudioDevice initialized.
+[2017.05.29-15.47.31:410][ 44]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.29-15.47.31:411][ 44]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.29-17.47.31
+[2017.05.29-15.47.31:411][ 44]LogWorld: Bringing up level for play took: 0.000641
+[2017.05.29-15.47.31:411][ 44]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.29-15.47.31:444][ 44]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.47.31:444][ 44]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.47.31:444][ 44]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.47.31:445][ 44]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=-14.750] for [BP_Character_Player_C]
+[2017.05.29-15.47.31:445][ 44]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Character_Player_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.05.29-15.47.31:446][ 44]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.47.31:446][ 44]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.324
+[2017.05.29-15.47.31:476][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.31:476][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.47.33:356][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.33:356][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.47.33:425][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.33:425][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.47.45:216][842]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.29-15.47.45:232][842]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.45:232][842]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.47.45:232][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-15.47.45:232][842]PIE: New page: PIE session: Blockout_beat2 (May 29, 2017, 7:47:45 PM)
+[2017.05.29-15.47.45:232][842]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.29-15.47.45:234][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001518s)
+[2017.05.29-15.47.45:234][842]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.29-15.47.45:234][842]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.05.29-15.47.45:234][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.002322s)
+[2017.05.29-15.47.45:252][842]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.29-15.47.45:260][842]LogInit: FAudioDevice initialized.
+[2017.05.29-15.47.45:290][842]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.29-15.47.45:292][842]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.29-17.47.45
+[2017.05.29-15.47.45:292][842]LogWorld: Bringing up level for play took: 0.000744
+[2017.05.29-15.47.45:292][842]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.29-15.47.45:325][842]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.47.45:325][842]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.47.45:325][842]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.47.45:325][842]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=-14.750] for [BP_Character_Player_C]
+[2017.05.29-15.47.45:326][842]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Character_Player_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.05.29-15.47.45:327][842]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.47.45:327][842]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.443
+[2017.05.29-15.47.45:356][842]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.47.45:356][842]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.48.02:963][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.48.02:963][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.48.03:029][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.48.03:029][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.48.25:762][207]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.05.29-15.48.33:878][690]Cmd: EDIT CUT
+[2017.05.29-15.48.33:896][690]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.29-15.48.33:914][690]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.05.29-15.48.37:168][893]Cmd: EDIT PASTE
+[2017.05.29-15.48.37:189][893]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.29-15.48.38:567][977]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.29-15.48.38:592][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.48.38:592][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.48.38:592][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-15.48.38:592][977]PIE: New page: PIE session: Blockout_beat2 (May 29, 2017, 7:48:38 PM)
+[2017.05.29-15.48.38:592][977]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.29-15.48.38:594][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001820s)
+[2017.05.29-15.48.38:595][977]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.29-15.48.38:595][977]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2017.05.29-15.48.38:595][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.002856s)
+[2017.05.29-15.48.38:616][977]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.29-15.48.38:637][977]LogInit: FAudioDevice initialized.
+[2017.05.29-15.48.38:671][977]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.29-15.48.38:674][977]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.29-17.48.38
+[2017.05.29-15.48.38:674][977]LogWorld: Bringing up level for play took: 0.001614
+[2017.05.29-15.48.38:674][977]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.29-15.48.38:725][977]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.48.38:725][977]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.48.38:725][977]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.48.38:725][977]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=-14.750] for [BP_Character_Player_C]
+[2017.05.29-15.48.38:725][977]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Character_Player_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.05.29-15.48.38:727][977]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.48.38:727][977]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 0.958
+[2017.05.29-15.48.38:741][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.48.38:741][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.48.47:292][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.48.47:292][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.48.47:341][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.48.47:341][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.49.47:682][303]BlueprintLog: New page: Compile GameMode_Fabi
+[2017.05.29-15.49.49:318][404]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.29-15.49.49:338][404]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.49.49:338][404]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.49.49:338][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-15.49.49:338][404]PIE: New page: PIE session: Blockout_beat2 (May 29, 2017, 7:49:49 PM)
+[2017.05.29-15.49.49:338][404]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Blockout_beat2
+[2017.05.29-15.49.49:339][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001524s)
+[2017.05.29-15.49.49:340][404]LogAIModule: Creating AISystem for world Blockout_beat2
+[2017.05.29-15.49.49:340][404]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2017.05.29-15.49.49:340][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Blockout_beat2.Blockout_beat2 to /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 (0.002421s)
+[2017.05.29-15.49.49:365][404]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.29-15.49.49:376][404]LogInit: FAudioDevice initialized.
+[2017.05.29-15.49.49:410][404]LogLoad: Game class is 'GameMode_Fabi_C'
+[2017.05.29-15.49.49:411][404]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blockout_beat2.Blockout_beat2 up for play (max tick rate 0) at 2017.05.29-17.49.49
+[2017.05.29-15.49.49:411][404]LogWorld: Bringing up level for play took: 0.000700
+[2017.05.29-15.49.49:412][404]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.29-15.49.49:443][404]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.49.49:443][404]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.29-15.49.49:443][404]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.49.49:444][404]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=-14.750] for [BP_Character_Player_C]
+[2017.05.29-15.49.49:444][404]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Character_Player_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.05.29-15.49.49:445][404]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.29-15.49.49:445][404]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Blockout_beat2 -0.322
+[2017.05.29-15.49.49:459][404]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2' with GeneratedClass '/Game/Levels/Blockout_beat2.Blockout_beat2_C' with ClassGeneratedBy '/Game/Levels/Blockout_beat2.Blockout_beat2:PersistentLevel.Blockout_beat2'
+[2017.05.29-15.49.49:459][404]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gameplay.Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay' with GeneratedClass '/Game/Levels/Gameplay.Gameplay_C' with ClassGeneratedBy '/Game/Levels/Gameplay.Gameplay:PersistentLevel.Gameplay'
+[2017.05.29-15.50.14:575][978]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.29-15.50.32:318][ 31]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.239 s
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: 
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: Ensure condition failed: ListenerTransformCopy.IsValid() [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\AudioDevice.cpp] [Line: 2143]
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: Invalid listener transform provided to AudioDevice
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: Stack: 
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004FB095E6
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F8B9B82
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F8CB666
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004C651B6B
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003809782A
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000038094763
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000037D2197D
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000004D36A74E
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000037C79315
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000037C772F9
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000038482086
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor.exe!0x00000000B8C7DEE3
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor.exe!0x00000000B8C6EB40
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor.exe!0x00000000B8C6EBBA
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor.exe!0x00000000B8C80A29
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: UE4Editor.exe!0x00000000B8C822B6
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: KERNEL32.DLL!0x000000009D502774
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: ntdll.dll!0x000000009FAB0D61
+[2017.05.29-15.50.32:318][ 31]LogOutputDevice:Error: 
+[2017.05.29-15.50.32:324][ 31]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.29-15.50.33:081][ 31]LogStats:                    SendNewReport -  0.758 s
+[2017.05.29-15.50.33:081][ 31]LogStats:             FDebug::EnsureFailed -  1.004 s
+[2017.05.29-15.50.33:095][ 32]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.007 s
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: 
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: Ensure condition failed: Y != 0 [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMath.cpp] [Line: 81]
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: FMath::FMod(X=-1297.777344, Y=-nan) : Y is zero, this is invalid and would result in NaN!
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: Stack: 
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004FB095E6
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F8B9B82
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F8CB666
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F779A25
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A2B7343
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A20B003
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A27E9C0
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A29C8B7
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A24DE59
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A251100
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A272310
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A1D9FBB
+[2017.05.29-15.50.33:095][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A1D9473
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000039E2BE8E
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A1F67A2
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x000000003A1C094E
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F78D84D
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F78DC6D
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x0000000068480397
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x0000000068481486
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004FB1A3D8
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004FB14C79
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: KERNEL32.DLL!0x000000009D502774
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: ntdll.dll!0x000000009FAB0D61
+[2017.05.29-15.50.33:096][ 32]LogOutputDevice:Error: 
+[2017.05.29-15.50.33:096][ 32]LogStats:                SubmitErrorReport -  0.000 s
