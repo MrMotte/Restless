@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-"D:\Restlos\Restless\Restless\Plugins\PortalPlugin\Intermediate\Build\Win64\UE4\Development\PortalPlugin\Module.PortalPlugin.cpp.obj"
-"D:\Restlos\Restless\Restless\Plugins\PortalPlugin\Intermediate\Build\Win64\UE4\Development\PortalPlugin\PortalPlugin.generated.cpp.obj"
-"D:\Restlos\Restless\Restless\Intermediate\Build\Win64\UE4\Development\PortalPlugin\PCLaunch.rc.res"
-/OUT:"D:\Restlos\Restless\Restless\Plugins\PortalPlugin\Binaries\Win64\UE4-PortalPlugin.lib"
