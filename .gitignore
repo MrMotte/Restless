@@ -75,3 +75,5 @@ gitkraken_rsa\.pub
 Restless/Intermediate/
 
 Restless/Saved/
+
+!Plugins/*
