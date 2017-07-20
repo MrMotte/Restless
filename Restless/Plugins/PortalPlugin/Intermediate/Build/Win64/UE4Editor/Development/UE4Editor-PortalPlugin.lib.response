@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PortalPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Programme\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\PortalPlugin-master\Plugins\PortalPlugin\Intermediate\Build\Win64\UE4Editor\Development\PortalPlugin\Module.PortalPlugin.cpp.obj"
+"D:\PortalPlugin-master\Plugins\PortalPlugin\Intermediate\Build\Win64\UE4Editor\Development\PortalPlugin\PortalPlugin.generated.cpp.obj"
+"D:\Programme\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\PortalPlugin\PCLaunch.rc.res"
+"D:\Programme\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\PortalPlugin-master\Plugins\PortalPlugin\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PortalPlugin.lib"
